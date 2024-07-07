@@ -4,7 +4,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 import pool from './database/config.js';
 import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 dotenv.config();
 
